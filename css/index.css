@@ -1,0 +1,1847 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px arial, Verdana, Geneva, Helvetica;
+    color: #131313;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+    border: none;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+i, em {
+    font-style: normal;
+}
+
+b, strong {
+    font-weight: normal;
+}
+
+s {
+    text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/*------------------------header start------------------------*/
+.header_top {
+    padding: 14px 0;
+}
+
+.header_top .logo {
+    width: 130px;
+    height: 48px;
+    float: left;
+}
+
+.header_top .logo a {
+    display: block;
+    width: 130px;
+    height: 48px;
+    background: url("../img/el_com.png") no-repeat -658px 0;
+}
+
+.header_top .right {
+    float: right;
+    width: 700px;
+}
+
+.r_menu {
+    width: 360px;
+    float: left;
+}
+
+.r_menu span {
+    float: left;
+    padding: 0 5px;
+    margin: 0 5px;
+    line-height: 26px;
+}
+
+.r_menu span a {
+    color: #999;
+}
+
+.r_menu span a:hover {
+    color: #ff5555;
+}
+
+.r_menu b {
+    float: left;
+    width: 1px;
+    height: 12px;
+    border-right: 1px solid #c5c5c5;
+    margin-top: 6px;
+}
+
+.r_menu .language {
+    position: relative;
+    width: 60px;
+    border: 1px solid #fff
+}
+
+.r_menu .language:hover {
+    border: 1px solid #c3c3c3;
+}
+
+.r_menu .language:hover p {
+    display: block;
+}
+
+.r_menu .language p {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 26px;
+    height: 60px;
+    width: 70px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #c3c3c3;
+    border-top: none;
+    z-index: 100;
+}
+
+.r_menu .language i {
+    display: inline-block;
+    width: 11px;
+    height: 8px;
+    background: url("../img/icon_2016.png") no-repeat -357px -13px;;
+    vertical-align: -2px;
+    margin-left: 2px;
+}
+
+.r_menu .language p a {
+    display: block;
+    border-top: 1px dashed #cacaca;
+    height: 28px;
+    line-height: 28px;
+}
+
+.r_right {
+    width: 340px;
+    float: left;
+    height: 48px;
+}
+
+.r_right ul li {
+    float: left;
+    font-size: 14px;
+}
+
+.r_right ul li div {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    display: none;
+    position: relative;
+    margin-top: 17px;
+    border: 1px solid #c5c5c5;
+    background-color: #fff;
+}
+
+.r_right ul li > i {
+    float: left;
+    width: 42px;
+    height: 42px;
+    margin-right: 12px;
+}
+
+.r_right ul li.rr_one {
+    width: 160px;
+}
+
+.r_right ul li.rr_one > i {
+    background: url("../img/icon_phone.gif") no-repeat center;
+}
+
+.r_right ul li.rr_one p, em {
+    color: #ff6c67;
+    line-height: 18px;
+}
+
+.r_right ul li.rr_one p {
+    padding-top: 2px;
+    cursor: pointer;
+}
+
+.r_right ul li.rr_one div {
+    width: 237px;
+    height: 112px;
+    background: #fff url("../img/icon_2016.png") no-repeat -373px -229px;
+    z-index: 100;
+}
+
+.r_right ul li:hover div {
+    display: block;
+}
+
+.r_right ul li div i {
+    position: absolute;
+    top: -9px;
+    left: 40px;
+    display: block;
+    width: 20px;
+    height: 9px;
+    background: url("../img/icon_2016.png") no-repeat -211px -2px;
+    background-color: #fff;
+}
+
+.r_right ul li.rr_two {
+    width: 180px;
+}
+
+.r_right ul li.rr_two > i {
+    background: url("../img/icon_2016.png") no-repeat -43px -3px;
+}
+
+.r_right ul li.rr_two em {
+    color: #999;
+}
+
+.r_right ul li.rr_two > p {
+    font-size: 16px;
+    color: #2064d2;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.r_right ul li.rr_two > p i {
+    margin-left: 12px;
+    display: inline-block;
+    width: 9px;
+    height: 5px;
+    background: url("../img/icon_2016.png") no-repeat -378px -12px;
+    vertical-align: middle;
+}
+
+.r_right ul li.rr_two div {
+    width: 170px;
+    height: 140px;
+    color: #999;
+    padding: 4px 0 0 10px;
+    z-index: 100;
+}
+
+.r_right ul li.rr_two div ul li {
+    border-bottom: 1px dashed #c5c5c5;
+    padding: 5px 0;
+    line-height: 18px;
+    font-size: 12px;
+    width: 160px;
+}
+
+.r_right ul li.rr_two div ul li p {
+    padding-left: 36px;
+}
+
+.r_right ul li.rr_two div ul li.lastli {
+    border-bottom: none;
+}
+
+.nav_box {
+    height: 40px;
+    background-color: #2064c8;
+}
+
+.nav .link {
+    float: left;
+}
+
+.nav .link li.on {
+    background-color: #003679;
+}
+
+/*.nav .link li:hover {
+    background-color: #0053ac;
+}*/
+
+.nav .link .lihover {
+    background-color: #0053ac;
+}
+
+.nav .link li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #3774ce;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav .link li a {
+    color: #fff;
+    line-height: 40px;
+    padding: 0 12px;
+    font-family: Microsoft Yahei, Tahoma, Geneva, sans-serif;
+}
+
+.nav .link li span {
+    display: block;
+    background: url("../img/el_com.png") no-repeat;
+    position: absolute;
+    top: -9px;
+    height: 20px;
+}
+
+.nav .link li .icon_coupon {
+    left: 56px;
+    width: 21px;
+    background-position: -509px 0;
+}
+
+.nav .link li .icon_apart {
+    left: 44px;
+    width: 39px;
+    background-position: -470px -29px;
+}
+
+.nav .link li .icon_reserve {
+    left: 32px;
+    width: 39px;
+    background-position: -426px -29px;
+}
+
+.nav .link li .icon_new {
+    left: 30px;
+    width: 16px;
+    background-position: -490px 0;
+}
+
+.nav .account {
+    float: right;
+    position: relative;
+}
+
+.nav .account .log {
+    height: 40px;
+    width: 120px;
+    background-color: #003679;
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav .account .log_a {
+    text-align: center;
+}
+
+.nav .account .log_a > a {
+    padding-right: 4px;
+    color: #fff;
+    line-height: 40px;
+}
+
+.nav .account .log_a > a:hover {
+    color: #fff544;
+}
+
+.nav .account .log_display {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 208px;
+    height: 280px;
+    background-color: #fff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    border: 1px solid #c5c5c5;
+    z-index: 100;
+}
+
+.nav .account .log:hover .log_display {
+    display: block;
+}
+
+.account .log_display .new_btn {
+    display: block;
+    width: 180px;
+    height: 34px;
+    text-align: center;
+    font: 18px/34px Microsoft YaHei;
+    background-color: #ff8800;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 14px;
+}
+
+.account .log_display .new_btn:hover {
+    background-color: #ee6600;
+}
+
+.account .log_display ul {
+    padding: 8px 0 0 10px;
+}
+
+.account .log_display ul li {
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    padding: 0 3px 18px 0;
+}
+
+.account .log_display ul li a {
+    display: block;
+    width: 60px;
+    height: 16px;
+    background: url("../img/el_com.png") no-repeat center;
+    color: #999;
+    padding-top: 36px;
+    text-align: center;
+}
+
+.account .log_display ul li a:hover {
+    color: #3366cc;
+}
+
+.account .log_display .icon_d1 a {
+    background-position: -147px -685px
+}
+
+.account .log_display .icon_d2 a {
+    background-position: -215px -575px
+}
+
+.account .log_display .icon_d3 a {
+    background-position: -215px -685px
+}
+
+.account .log_display .icon_d4 a {
+    background-position: -147px -629px
+}
+
+.account .log_display .icon_d5 a {
+    background-position: -215px -629px
+}
+
+.account .log_display .icon_d6 a {
+    background-position: -274px -629px
+}
+
+.account .log_display .icon_d7 a {
+    background-position: -147px -575px
+}
+
+.account .log_display .icon_d8 a {
+    background-position: -274px -575px
+}
+
+.account .log_display .icon_d9 a {
+    background-position: -274px -682px
+}
+
+.account .log_display .icon_d1:hover a {
+    background-position: 13px -685px
+}
+
+.account .log_display .icon_d2:hover a {
+    background-position: -41px -575px
+}
+
+.account .log_display .icon_d3:hover a {
+    background-position: -45px -685px
+}
+
+.account .log_display .icon_d4:hover a {
+    background-position: 13px -629px
+}
+
+.account .log_display .icon_d5:hover a {
+    background-position: -47px -628px
+}
+
+.account .log_display .icon_d6:hover a {
+    background-position: -96px -629px
+}
+
+.account .log_display .icon_d7:hover a {
+    background-position: 13px -574px
+}
+
+.account .log_display .icon_d8:hover a {
+    background-position: -93px -575px
+}
+
+.account .log_display .icon_d9:hover a {
+    background-position: -93px -682px
+}
+
+/*------------------------header end------------------------*/
+/*------------------------banner start------------------------*/
+.banner {
+    height: 380px;
+}
+
+.banner_box {
+    position: relative;
+    height: 380px;
+}
+
+.banner_box .ban_ul {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 380px;
+    background: url("../img/banner01.jpg") no-repeat center;
+}
+
+.banner_box .ban_ul li {
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    z-index: 0;
+}
+
+.banner_box .ban_ul li a {
+    display: block;
+    height: 380px;
+}
+
+.banner_box .ban_ul li .ban1 {
+    background: url("../img/banner01.jpg") no-repeat center;
+}
+
+.banner_box .ban_ul li .ban2 {
+    background: url("../img/banner02.jpg") no-repeat center;
+}
+
+.banner_box .ban_ul li .ban3 {
+    background: url("../img/banner03.jpg") no-repeat center;
+}
+
+.banner_box .ban_ul li .ban4 {
+    background: url("../img/banner04.jpg") no-repeat center;
+}
+
+.banner_box .ban_ul li .ban5 {
+    background: url("../img/banner05.jpg") no-repeat center;
+}
+
+.banner_box .ban_ul li .ban6 {
+    background: url("../img/banner06.jpg") no-repeat center;
+}
+
+.banner_box .ban_ner {
+    position: relative;
+    height: 380px;
+}
+
+.banner_box .dots {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    z-index: 10;
+}
+
+.banner_box .dots li {
+    float: left;
+    margin-left: 6px;
+    width: 24px;
+    height: 4px;
+    background: rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+
+.banner_box .dots li.on {
+    background-color: #ff8800;
+}
+
+/*------------------banner上面的图层 start-------------------*/
+.banner_search {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 570px;
+    height: 300px;
+    background-color: #fff;
+    z-index: 2;
+    padding-right: 30px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    font-family: Microsoft Yahei;
+    color: #555;
+}
+
+.banner_search span {
+    font-size: 14px;
+    padding-right: 7px;
+}
+
+.banner_search input {
+    vertical-align: middle;
+}
+
+.banner_search .searchTabs {
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner_search .searchTabs li {
+    width: 99px;
+    height: 59px;
+    line-height: 59px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border: 1px solid #e1e1e1;
+    margin-top: -1px;
+    cursor: pointer;
+}
+
+.banner_search .searchTabs li.lastli {
+    border-top: #f3f3f3;
+    border-bottom: none;
+    height: 60px;
+    margin-top: 0;
+}
+
+.banner_search .searchTabs li i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("../img/icon_index.png") no-repeat;
+    vertical-align: middle;
+}
+
+.banner_search .searchTabs li.t1 i {
+    background-position: -584px -345px;
+}
+
+.banner_search .searchTabs li.t2 i {
+    background-position: -584px -367px;
+}
+
+.banner_search .searchTabs li.t3 i {
+    background-position: -584px -386px;
+}
+
+.banner_search .searchTabs li.t4 i {
+    background-position: -584px -317px;
+}
+
+.banner_search .searchTabs li.show {
+    background-color: #fff;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    color: #3377dd;
+}
+
+.banner_search .searchTabs li i.show {
+    background-position-x: -557px;
+}
+
+.banner_search .b_right {
+    float: right;
+    width: 440px;
+}
+
+.banner_search .b_right > div {
+    display: none;
+}
+
+.banner_search .b_right > div.on {
+    display: block;
+}
+
+.banner_search .b_right .title_tab {
+    border-bottom: 2px solid #aaa;
+    height: 38px;
+
+}
+
+.banner_search .b_right .title_tab a {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555;
+    padding: 0 18px;
+    line-height: 38px;
+}
+
+.banner_search .b_right .title_tab .on_a {
+    border-bottom: 2px solid #3377dd;
+    color: #3377dd;
+}
+
+.banner_search .b_right .title_tab a i {
+    display: none;
+    position: absolute;
+    left: 42px;
+    bottom: -1px;
+    width: 9px;
+    height: 5px;
+    background: url("../img/icon_2016.png") no-repeat -378px -4px;
+}
+
+.banner_search .b_right .title_tab a i.on {
+    display: block;
+}
+
+.banner_search .b_right .title_tab a:hover {
+    color: #3377dd;
+}
+
+.banner_search .b_right .tt1_body1 {
+    display: none;
+}
+
+.banner_search .b_right .tt1_body1.change {
+    display: block;
+}
+
+.banner_search .b_right .tt1_body1 > div {
+    padding: 20px 0 0 13px;
+}
+
+.banner_search .b_right .tt1_body1 > span {
+    color: #555;
+    padding-right: 10px;
+}
+
+.banner_search .b_right .tt1_body1 input[type=text] {
+    vertical-align: middle;
+    width: 360px;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    padding-left: 4px;
+}
+
+.banner_search .b_right .tt1_two input[type=text] {
+    width: 150px;
+    vertical-align: middle;
+}
+
+.banner_search .b_right .tt1_two span {
+    padding-left: 12px;
+
+}
+
+.banner_search .b_right .tt1_two .label {
+    position: relative;
+    height: 34px;
+    float: left;
+}
+
+.banner_search .b_right .label b {
+    position: absolute;
+    right: 24px;
+    top: 11px;
+    color: #999;
+}
+
+.banner_search .b_right .label i {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    width: 16px;
+    height: 16px;
+    background: url("../img/icon_2016.png") no-repeat -480px -3px;
+}
+
+.banner_search .b_right .tt1_thr input[type=text] {
+    color: #999;
+}
+
+.banner_search .b_right .submit {
+    margin-left: 50px;
+}
+
+.banner_search .b_right .submit span {
+    display: inline-block;
+    border-radius: 3px;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.banner_search .b_right .submit .sub_search {
+    font-size: 16px;
+    width: 150px;
+    color: #fff;
+    background-color: #ff5555;
+    margin-right: 7px;
+    height: 30px;
+}
+
+.banner_search .b_right .submit .sub_search:hover {
+    background-color: #ee5555;
+}
+
+.banner_search .b_right .submit span i {
+    display: inline-block;
+    height: 18px;
+    vertical-align: -3px;
+    margin-right: 5px;
+    background: url("../img/icon_2016.png") no-repeat
+}
+
+.banner_search .b_right .submit .sub_search i {
+    width: 18px;
+    background-position: -432px -3px;
+}
+
+.banner_search .b_right .submit .sub_search2 {
+    vertical-align: 0;
+    width: 77px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #555;
+    padding-left: 6px;
+    margin-top: 1px;
+}
+
+.banner_search .b_right .submit .sub_search2 i {
+    width: 14px;
+    background-position: -455px -4px;
+}
+
+.banner_search .b_right .submit .sub_search2:hover {
+    background-color: #3399ff;
+    color: #fff;
+    border-color: transparent;
+}
+
+.banner_search .b_right .submit .sub_search2:hover i {
+    background-position: -455px -29px;
+}
+
+.banner_search .b_right .tt2_body1 > div {
+    padding-left: 7px;
+}
+
+.banner_search .tt1_body1 .run_box input[type=radio] {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.banner_search .tt1_body1 .run_box em {
+    padding-right: 20px;
+    color: #131313;
+}
+
+.banner_search .b_right .tt2_two > span {
+    padding-left: 0;
+}
+
+.banner_search .b_right .tt2_two > i {
+    display: inline-block;
+    width: 20px;
+    height: 12px;
+    background: url("../img/icon_2016.png") no-repeat -267px -2px;
+    vertical-align: middle;
+    margin: 0 11px;
+}
+
+.banner_search .b_right .tt2_two input[type=text] {
+    width: 148px;
+}
+
+.banner_search .b_right .tt3_two .label2 {
+    padding-left: 16px;
+}
+
+.banner_search .b_right .tt3_two .label3 input[type=text] {
+    color: #999;
+}
+
+.banner_search .b_right .tt3_two .label3 > span {
+    padding: 0 3px 0 10px;
+}
+
+.banner_search .b_right .tt1_two .label4 {
+    width: auto;
+}
+
+.banner_search .b_right .tt1_two .label4 span {
+    padding-left: 0;
+}
+
+.banner_search .b_right .tt1_two .label5 {
+    width: auto;
+    padding: 11px 0 0 20px;
+
+}
+
+.banner_search .b_right .tt1_two .label5 span {
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.b_right .tt1_two .label5 input[type=checkbox] {
+    vertical-align: middle;
+}
+
+.b_right .tt2_body1 .hot_city {
+    padding-top: 31px;
+    height: 22px;
+    font: 14px Microsoft Yahei;
+    color: #555;
+}
+
+.b_right .tt2_body1 .hot_city dt {
+    float: left;
+    line-height: 22px;
+}
+
+.b_right .tt2_body1 .hot_city dd {
+    float: left;
+    margin: 0 2px;
+}
+
+.b_right .tt2_body1 .hot_city dd i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 4px;
+    background: url("../img/icon_index.png") no-repeat -586px -448px;
+    margin: 0 1px;
+}
+
+.b_right .tt2_body1 .hot_city dd a {
+    display: inline-block;
+    color: #555;
+    width: 86px;
+    height: 22px;
+    text-align: center;
+    line-height: 22px;
+}
+
+.b_right .tt2_body1 .hot_city dd a:hover {
+    background-color: #3399ff;
+    color: #fff;
+}
+
+.b_right .tt2_body1 .hot_city dd a:hover i {
+    background-position-Y: -455px;
+}
+
+.banner_search .b_right .mobile {
+    width: 455px;
+    height: 476px;
+    background: url("../img/mobile.png") no-repeat;
+    margin: 24px 0 0 -7px;
+}
+
+/*------------------banner上面的图层 end------------------*/
+/*------------------------banner end------------------------*/
+/*------------------------login start------------------------*/
+.login_box {
+    width: 180px;
+    height: 30px;
+    margin-top: 20px;
+    padding: 0 20px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    color: #555;
+    font: 14px/30px Microsoft Yahei;
+}
+
+.login_box i {
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    vertical-align: middle;
+    background: url("../img/icon_index.png") no-repeat -583px -16px;
+}
+
+.login_box a {
+    color: #3377dd;
+    margin: 0 3px;
+}
+
+.login_box a:hover {
+    color: #ff5555;
+}
+
+/*------------------------login end------------------------*/
+/*------------------------hot start------------------------*/
+.hot {
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+
+/*.hot_box {
+    overflow: hidden;
+}
+
+.hot ul{
+    width: 1210px;
+    overflow: hidden;
+}*/
+
+.hot ul li {
+    float: left;
+    position: relative;
+    width: 171px;
+    height: 260px;
+    text-align: center;
+    line-height: 260px;
+    overflow: hidden;
+}
+
+.hot ul li.middle {
+    width: 174px;
+}
+
+.hot ul li .hide {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+    z-index: 1;
+}
+
+.hot ul li .hide h4 {
+    font: 30px/30px Microsoft Yahei;
+    width: 30px;
+    color: #fff;
+    padding: 30px 0 0 0;
+    margin: 0 auto;
+
+}
+
+.hot ul li .hot_pic {
+    width: 100%;
+    height: 100%;
+}
+
+.hot ul li .hot_pic1 {
+    background: url("../img/hot_1.jpg") no-repeat center;
+}
+
+.hot ul li .hot_pic2 {
+    background: url("../img/hot_2.jpg") no-repeat center;
+}
+
+.hot ul li .hot_pic3 {
+    background: url("../img/hot_3.jpg") no-repeat center;
+}
+
+.hot ul li .hot_pic4 {
+    background: url("../img/hot_4.jpg") no-repeat center;
+}
+
+.hot ul li .hot_pic5 {
+    background: url("../img/hot_5.jpg") no-repeat center;
+}
+
+.hot ul li .hot_pic6 {
+    background: url("../img/hot_6.jpg") no-repeat center;
+}
+
+.hot ul li .hot_pic7 {
+    background: url("../img/hot_7.jpg") no-repeat center;
+}
+
+/*------------------------hot end------------------------*/
+/*------------------------destination start------------------------*/
+.destination h2 {
+    display: block;
+    height: 30px;
+    border-bottom: 2px solid #ff5555;
+    padding-bottom: 8px;
+}
+
+.destination h2 a {
+    font: 24px/30px Microsoft yahei;
+    color: #f55;
+}
+
+.destination h2 span {
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+    padding-left: 8px;
+}
+
+.domestic .title_dom {
+    padding-top: 10px;
+}
+
+.domestic .title_dom em {
+    float: right;
+}
+
+.domestic .title_dom em a {
+    color: #555;
+    font: 14px/24px Microsoft Yahei;
+}
+
+.domestic .title_dom em a:hover {
+    color: #ff5555;
+}
+
+.domestic .title_dom > a {
+    font: 18px/26px Microsoft yahei;
+    color: #555;
+    float: left;
+}
+
+.domestic .title_dom > a i {
+    display: inline-block;
+    vertical-align: -3px;
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+    background: url("../img/icon_index.png") no-repeat -576px -101px;
+}
+
+.domestic .title_dom ul {
+    float: left;
+    height: 24px;
+    padding: 4px 0 0 30px;
+}
+
+.domestic .title_dom ul li {
+    float: left;
+    font: 14px/24px Microsoft Yahei;
+    color: #555;
+    padding: 0 10px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.domestic .title_dom ul li.on {
+    background-color: #ff5555;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.domestic .title_dom ul .lihover {
+    border: 1px solid #ff5555;
+    color: #ff5555;
+    border-radius: 50px;
+}
+
+.domestic .body_dom {
+    margin-top: 10px;
+    display: none;
+}
+
+.domestic .body_dom.show {
+    display: block;
+}
+
+.domestic .body_dom dl {
+    width: 293px;
+    height: 200px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+    margin-left: 10px;
+    float: left;
+}
+
+.domestic .body_dom dl dt {
+    height: 160px;
+    width: 293px;
+    position: relative;
+    overflow: hidden;
+}
+
+.domestic .body_dom dl dt img {
+    width: 100%;
+    position: relative;
+    margin-top: -20px;
+    bottom: -10px;
+    cursor: pointer;
+    transition: bottom .5s;
+    -webkit-transiton: bottom .5s;
+    -moz-transition: bottom .5s;
+    -ms-transition: bottom .5s;
+    -o-transition: bottom .5s;
+}
+
+.domestic .body_dom dl dt p {
+    position: absolute;
+    font: 24px/30px Microsoft yahei;
+    text-shadow: 1px 1px 7px #000;
+    color: #fff;
+    left: 12px;
+    bottom: 9px;
+}
+
+.domestic .body_dom dl dd {
+    font: 14px/30px Microsoft yahei;
+    color: #555;
+    line-height: 40px;
+    padding-left: 4px;
+    height: 39px;
+}
+
+.domestic .body_dom dl.firstdl {
+    margin-left: 0;
+    width: 291px;
+}
+
+.domestic .body_dom dl:hover dd {
+    border-bottom: 2px solid #ff6666;
+}
+
+.domestic .body_dom dl:hover img {
+    bottom: 0;
+}
+
+.overseas {
+    margin-top: 21px;
+}
+
+.overseas .title_dom > a i {
+    background-position: -576px -131px;
+}
+
+/*------------------------destination end------------------------*/
+/*------------------------special  start-------------------------*/
+.special {
+    margin-top: 25px;
+}
+
+.special .plane {
+    margin-top: 10px;
+}
+
+.special .train {
+    margin-top: 22px;
+}
+
+.special_box .title_des h2 {
+    border-bottom-color: #4499ff;
+}
+
+.special_box .title_des h2 a {
+    color: #4499ff;
+}
+
+.special_box .title_dom ul li.on {
+    background-color: #4499ff;
+}
+
+.special_box .title_dom ul .lihover {
+    color: #4499ff;
+    border: 1px solid #4499ff;
+}
+
+.special_box .title_dom > a i {
+    background-position: -572px -190px;
+}
+
+.special_box .tab_ticket {
+    display: none;
+}
+
+.special_box .tab_ticket.show {
+    display: block;
+}
+
+.special_box .tab_ticket ul {
+    margin-top: 10px;
+}
+
+.special_box .tab_ticket ul li {
+    width: 198px;
+    height: 73px;
+    padding-top: 21px;
+    float: left;
+    margin: 0 0 0 -1px;
+    background: #f4f9ff;
+    text-align: center;
+    border: 1px solid #d8e8fe;
+    position: relative;
+}
+
+.special_box .tab_ticket ul li > a {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    display: block;
+    width: 198px;
+    height: 72px;
+    padding-top: 21px;
+    border: 1px solid transparent;
+}
+
+.special_box .tab_ticket ul li .data_add {
+    display: block;
+    color: #555;
+}
+
+.special_box .tab_ticket ul li .data_add b {
+    font: 14px/30px Microsoft yahei;
+}
+
+.special_box .tab_ticket ul li .data_add i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 28px;
+    height: 10px;
+    margin: 0 17px;
+    background: url("../img/icon_index.png") no-repeat -569px -171px;
+}
+
+.special_box .tab_ticket ul li .data_date {
+    margin-top: 5px;
+}
+
+.special_box .tab_ticket ul li .data_date b {
+    font: 12px/30px Microsoft yahei;
+    color: #555;
+}
+
+.special_box .tab_ticket ul li .data_date em {
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+    background-color: #009900;
+    color: #fff;
+    border-radius: 8px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 7px;
+}
+
+.special_box .tab_ticket ul li .data_date i {
+    display: inline-block;
+    width: 60px;
+}
+
+.special_box .tab_ticket ul li .data_date .price {
+    color: #fc6622;
+    font-size: 14px;
+}
+
+.special_box .tab_ticket ul li .data_date .price s {
+    font-size: 12px;
+    vertical-align: 2px;
+}
+
+.special_box .tab_ticket ul li > a:hover {
+    border: 1px solid #4599ff;
+    border-bottom: 2px solid #4599ff;
+    z-index: 1;
+}
+
+.special_box .train .title_dom > a i {
+    background-position: -573px -251px;
+}
+
+.special_box .train .tab_ticket ul li .data_add i {
+    background-position: -527px -173px;
+}
+
+/*-------------------------special  end-------------------------*/
+/*-------------------------guide  end-------------------------*/
+.guide {
+    margin-top: 25px;
+}
+
+.guide_box .title_des {
+    margin-bottom: 10px;
+}
+
+.guide_box .title_des h2 {
+    border-bottom-color: #77cc11;
+}
+
+.guide_box .title_des h2 a {
+    color: #77cc11;
+}
+
+.guide_box .guide_left {
+    float: left;
+}
+
+.guide_box .guide_left ul {
+    float: left;
+}
+
+.guide_box .guide_left ul > li {
+    height: 54px;
+    line-height: 54px;
+    width: 220px;
+    position: relative;
+}
+
+.guide_box .guide_left ul > li a {
+    width: 200px;
+    height: 57px;
+    font: 14px/57px Microsoft yahei;
+    color: #555;
+    padding: 0 10px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.guide_box .guide_left ul > li.on a {
+    background-color: #89ca00;
+    color: #fff;
+}
+
+.guide_box .guide_left ul > li span {
+    display: none;
+    position: absolute;
+    right: -12px;
+    top: 19px;
+    width: 12px;
+    height: 17px;
+    background: url(../img/icon_index.png) no-repeat -547px -2px;
+    z-index: 100;
+}
+
+.guide_box .guide_left ul > li span.show {
+    display: block;
+}
+
+.guide_box .guide_left ol {
+    float: left;
+    position: relative;
+    width: 360px;
+    height: 220px;
+}
+
+.guide_box .guide_left ol > li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    width: 360px;
+    height: 220px;
+
+}
+
+.guide_box .guide_left ol > li img {
+    width: 100%;
+    height: 100%;
+}
+
+.guide_box .guide_left ol > li.show {
+    display: block;
+}
+
+.guide_box .guide_right {
+    float: left;
+}
+
+.guide .guide_box .guide_right ul > li {
+    margin-left: 20px;
+    float: left;
+    width: 290px;
+}
+
+.guide .guide_box .guide_right ul > li p {
+    height: 40px;
+    font: 14px/40px Microsoft yahei;
+    background: #f7f7f7;
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1px;
+}
+
+.guide .guide_box .guide_right ul > li p a {
+    display: block;
+    height: 40px;
+    width: 280px;
+    font: 14px/40px Microsoft yahei;
+    padding: 0 5px;
+}
+
+.guide .guide_box .guide_right ul > li:hover p a {
+    border-bottom: 2px solid #77cc11;
+}
+
+.guide .guide_box .guide_right ul > li p a:hover {
+    color: #ff5555;
+
+}
+
+/*-------------------------guide  end-------------------------*/
+/*-------------------------service  start-------------------------*/
+
+.service {
+    margin-top: 20px;
+}
+
+.service_box .service_info {
+    background: #f7f7f7;
+    height: 60px;
+    overflow: hidden;
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.service_box .service_info ul li {
+    float: left;
+    width: 290px;
+    font: 16px/60px Microsoft yahei;
+}
+
+.service_box .service_info ul li i {
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin: 0 10px 0 0;
+    background: url("../img/icon_index.png") no-repeat;
+    cursor: pointer;
+}
+
+.service_box .service_info ul li .i_one {
+    background-position: -91px -4px;
+}
+
+.service_box .service_info ul li .i_two {
+    background-position: -159px -4px;
+}
+
+.service_box .service_info ul li .i_three {
+    background-position: -228px -4px;
+}
+
+.service_box .service_info ul li .i_four {
+    background-position: -295px -6px;
+}
+
+.service_box .service_info ul li span {
+    color: #131313;
+}
+
+@keyframes mymove {
+    0%, 10%, 20% {
+        transform: rotateZ(15deg);
+    }
+    5%, 15%, 25% {
+        transform: rotateZ(-15deg);
+    }
+    30%, 100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+.service_box .service_info ul li:hover i {
+    -webkit-animation: mymove 3s infinite linear;
+    animation: mymove 3s infinite linear;
+}
+
+.service_box .service_email {
+    height: 80px;
+    overflow: hidden;
+    background: #f7f7f7;
+}
+
+.service_box .service_email .email_icon {
+    float: left;
+    background: url("../img/icon_index.png") no-repeat -384px -20px;
+    height: 80px;
+    width: 110px;
+    margin-left: -20px;
+    transition: margin 0.5s;
+    -webkit-transition: margin 0.5s;
+}
+
+.service_box .service_email .email_icon:hover {
+    margin-left: 0;
+}
+
+.service_box .service_email .agreement {
+    float: right;
+    line-height: 80px;
+    padding: 0 10px 0 0;
+}
+
+.service_box .service_email .agreement a {
+    font: 14px/80px Microsoft yahei;
+    color: #3377dd;
+}
+
+.service_box .service_email .input_b {
+    width: 680px;
+    margin: 30px auto 0;
+}
+
+.service_box .service_email .input_b span {
+    font: 16px/30px Microsoft yahei;
+    color: #71829d;
+    padding: 0 5px;
+    float: left;
+}
+
+.service_box .service_email .input_b input {
+    margin: 0;
+    float: left;
+    padding: 0 3px;
+    font: 14px/30px Microsoft yahei;
+}
+
+.service_box .service_email .input_b input[type=text] {
+    width: 200px;
+    height: 28px;
+    border: 1px solid #ccc;
+    color: #555;
+}
+
+.service_box .service_email .input_b input[type=button] {
+    width: 80px;
+    background: #3377dd;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+/*-------------------------service  end-------------------------*/
+/*-------------------------footer  start-------------------------*/
+.footer {
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #EEE;
+    min-width: 1000px;
+    margin-top: 20px;
+}
+
+.footer .footer_top {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer .footer_top dl {
+    float: left;
+    width: 18%;
+    padding-left: 7%;
+}
+
+.footer .footer_top dl dt {
+    border-left: 3px solid #5D96C7;
+    padding: 0 0 0 10px;
+    height: 18px;
+    font: 18px/1 Microsoft Yahei;
+    margin-bottom: 10px;
+}
+
+.footer .footer_top dl dd {
+    padding-left: 14px;
+    line-height: 24px;
+}
+
+.footer .footer_top dl dd a {
+    color: #333;
+    -webkit-transition: margin 0.5s;
+    transition: margin 0.5s;
+}
+
+.footer .footer_top dl dd a:hover {
+    margin-left: 6px;
+    color: #f55;
+}
+
+.footer .footer_top dl dd.er {
+    padding-top: 10px;
+}
+
+.footer .footer_top dl dd i {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    background: url(../img/icon_2016.png) 0 0 no-repeat;
+}
+
+.footer .footer_top dl dd i.app {
+    background-position: -502px 0;
+}
+
+.footer .footer_top dl dd i.wechat {
+    background-position: -500px -100px;;
+}
+
+.footer .footer_mid {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer .footer_mid a {
+    color: #333;
+}
+
+.footer .footer_mid i {
+    display: inline-block;
+    width: 22px;
+    height: 27px;
+    vertical-align: middle;
+    background: url(../img/el_com.png) no-repeat -938px -200px;
+}
+
+.footer .footer_la {
+    text-align: center;
+}
+
+.footer .footer_la a {
+    display: inline-block;
+    width: 80px;
+    line-height: 26px;
+    text-align: center;
+    height: 37px;
+    margin: 0 5px;
+    color: #666;
+    position: relative;
+    top: 0;
+    background: url(../img/el_com.png) no-repeat;
+    -webkit-transition: top 0.5s;
+    transition: top 0.5s;
+}
+
+.footer .footer_la a:hover {
+    top: -6px;
+}
+
+.footer .footer_la a.ss1 {
+    background-position: -329px -436px;
+    width: 80px;
+}
+
+.footer .footer_la a.ss2 {
+    background-position: -473px -436px;
+    width: 92px;
+}
+
+.footer .footer_la a.ss3 {
+    background-position: -565px -436px;
+    width: 92px;
+}
+
+.footer .footer_la a.ss4 {
+    background-position: -657px -436px;
+    width: 92px;
+}
+
+/*-------------------------footer  end-------------------------*/
+/*-------------------------bottom  start-------------------------*/
+.bottom_nav {
+    background: #7c8fa2;
+    height: 40px;
+    line-height: 40px;
+    min-width: 1000px;
+}
+
+.bottom_nav ul {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.bottom_nav ul li {
+    float: left;
+    text-align: center;
+}
+
+.bottom_nav ul li a {
+    display: block;
+    width: 166px;
+    height: 40px;
+    color: #fff;
+}
+
+.bottom_nav ul li a:hover {
+    background: #8da1b5;
+}
+
+.bottom_nav ul li.on {
+    background: #c0d2e4
+}
+
+.bottom_nav ul li.on a {
+    color: #333;
+}
+
+.bottom .bottom_info {
+    padding: 20px;
+    background: #f0f0f0;
+    width: 960px;
+    margin: 0 auto;
+    display: none;
+}
+
+.bottom .bottom_info h2 {
+    font: 16px "Microsoft Yahei", Simsun;
+    font-weight: bold;
+    color: #555;
+}
+
+.bottom .bottom_info p {
+    line-height: 22px;
+}
+
+.bottom .bottom_info p a {
+    color: #555;
+}
+
+.bottom .bottom_info p a:hover {
+    text-decoration: underline;
+}
+.bottom .bottom_info.show{
+    display: block;
+}
+/*
+#hotel:target {
+    display: block;
+}
+
+#ticket:target {
+    display: block;
+}
+
+#group:target {
+    display: block;
+}
+
+#city:target {
+    display: block;
+}
+
+#partner:target {
+    display: block;
+}
+
+#common:target {
+    display: block;
+}
+*/
+
+/*-------------------------bottom  end-------------------------*/
